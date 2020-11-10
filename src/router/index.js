@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Dummy from '../views/Dummy'
 
-import auth from '../views/middleware/auth'
+import auth from './middleware/auth'
 import cookie from 'vue-cookie'
 
 Vue.use(VueRouter)
